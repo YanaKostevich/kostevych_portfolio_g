@@ -1,0 +1,125 @@
+.wrapper{
+                                                             // A-N-I-M-A-T-I-O-N-S \\
+//ANIMATIONS PROJECTS------------------------------------------------------------------
+.title_case{
+    opacity: 0;
+  }
+  .title_case.element-show {
+    opacity: 1;
+    transition: opacity 1.5s;
+  }
+  .projetitle_casects{
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  .title_case.element-show {
+    opacity: 1;
+    transition: all 1.5s;
+    transform: translateY(0%);
+  }
+
+.projects{
+    opacity: 0;
+  }
+  .projects.element-show {
+    opacity: 1;
+    transition: opacity 1s;
+  }
+  .projects{
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  .projects.element-show {
+    opacity: 1;
+    transition: all 1s;
+    transform: translateY(0%);
+  }
+
+//ANIMATIONS PROGRESS------------------------------------------------------------------
+      .title_cv{
+        opacity: 0;
+      }
+      .title_cv.element-show {
+        opacity: 1;
+        transition: opacity 1.5s;
+      }
+      .title_cv{
+        transform: translateX(100%);
+        opacity: 0;
+      }
+      .title_cv.element-show {
+        opacity: 1;
+        transition: all 1.5s;
+        transform: translateX(0%);
+      }
+
+      .prog{
+        opacity: 0;
+      }
+      .prog.element-show {
+        opacity: 1;
+        transition: opacity 1.5s;
+      }
+      .prog{
+        transform: translateX(100%);
+        opacity: 0;
+      }
+      .prog.element-show {
+        opacity: 1;
+        transition: all 1.5s;
+        transform: translateX(0%);
+      }
+
+
+//ANIMATIONS CONTACTS------------------------------------------------------------------
+      .title_contact{
+        opacity: 0;
+      }
+      .title_contact.element-show {
+        opacity: 1;
+        transition: opacity 1s;
+      }
+      .title_contact{
+        transform: translateY(100%);
+        opacity: 0;
+      }
+      .title_contact.element-show {
+        opacity: 1;
+        transition: all 1s;
+        transform: translateY(0%);
+      }
+
+      .form_1{
+        opacity: 0;
+      }
+      .form_1.element-show {
+        opacity: 1;
+        transition: opacity 1s;
+      }
+      .form_1{
+        transform: translateX(-100%);
+        opacity: 0;
+      }
+      .form_1.element-show {
+        opacity: 1;
+        transition: all 1s;
+        transform: translateX(0%);
+      }
+
+      .form_2{
+        opacity: 0;
+      }
+      .form_2.element-show {
+        opacity: 1;
+        transition: opacity 1s;
+      }
+      .form_2{
+        transform: translateX(100%);
+        opacity: 0;
+      }
+      .form_2.element-show {
+        opacity: 1;
+        transition: all 1s;
+        transform: translateX(0%);
+      }
+}
